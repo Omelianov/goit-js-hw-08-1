@@ -504,12 +504,12 @@ function hmrAcceptRun(bundle, id) {
 
 },{}],"6XVkV":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-// Add imports above this line
-var _galleryItems = require("./gallery-items");
-// Change code below this line
 var _simplelightbox = require("simplelightbox");
 var _simplelightboxDefault = parcelHelpers.interopDefault(_simplelightbox);
 var _simpleLightboxMinCss = require("simplelightbox/dist/simple-lightbox.min.css");
+// Add imports above this line
+var _galleryItems = require("./gallery-items");
+// Change code below this line
 function createGalleryCardsMarkup(galleryItems) {
     return galleryItems.map(({ preview , original , description  })=>{
         return `
